@@ -4,6 +4,9 @@
 
 Initialize all submodules
 ```bash
+# You may need to add the submodule
+git submodule add -b docking https://github.com/ocornut/imgui.git vendor/imgui
+
 git submodule update --init --recursive
 cd vendor/imgui
 git checkout docking
